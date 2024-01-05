@@ -107,10 +107,9 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+.task-list__item > * {
   vertical-align: middle;
 }
-
 .task-list__item-checkbox {
   margin: 0 10px;
 }
@@ -123,12 +122,12 @@ li > * {
 .task-list__item-input {
   width: 226px;
 }
-button.delete img {
+.delete__icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete__icon:hover {
   transform: rotateZ(0);
 }
 
